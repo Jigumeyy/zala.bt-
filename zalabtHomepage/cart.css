@@ -1,0 +1,339 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+  }
+  /* Navbar styling */
+  .navbar {
+    background-color: #621521;
+    padding: 1rem 2rem; /* Adds spacing for a balanced look */
+}
+
+.navbar-brand img {
+    max-width: 80px; /* Set a fixed size for better consistency */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important; /* Ensure links are white */
+    font-weight: 500;
+    margin-left: 1.5rem; /* Adds spacing between nav items */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f1f1f1; /* Light gray on hover */
+}
+
+
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  animation: slide 12s infinite;
+}
+
+.slide {
+  max-height: 350px;
+  object-fit: cover;
+  margin-top: 3%;
+  min-width: 100%;
+  transition: transform 0.5s ease;
+}
+
+/* Animation for sliding effect */
+@keyframes slide {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
+  
+  /* .banner img {
+    max-height: 350px;
+    object-fit: cover;
+    margin-top: 3%;
+
+  } */
+  
+  /* Best Selling Products Styling */
+.best-selling {
+    text-align: center;
+}
+
+.best-selling .small-product .product-box {
+    transform: scale(0.85); /* Make side products slightly smaller */
+}
+
+.best-selling .large-product .product-box {
+    transform: scale(1.05); /* Make the middle product slightly larger */
+}
+
+.best-selling .product-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Add shadow here */
+}
+
+.best-selling .product-box:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.best-selling .product-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.best-selling .product-price {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.best-selling .product-description {
+    font-size: 0.9em;
+    color: #555;
+}
+.container .reward-offer .py-10{
+ justify-content: center;
+}
+.row {
+    margin-top: 3%;
+}
+
+.offer img{
+  margin-top: 5%;
+  margin-left: 20%;
+
+}
+
+  
+  /* Testimonial Section */
+.testimonial-section {
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+
+}
+
+.testimonial-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  
+}
+
+.testimonial-content p {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.testimonial-card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.testimonial-image-container {
+  position: relative;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.background-circle {
+  width: 130px;
+  height: 130px;
+  background-color: #3c0d0d;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  z-index: 1;
+}
+
+.testimonial-image {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+
+.quote-mark {
+  font-size: 24px;
+  color: #888;
+ 
+}
+
+.testimonial-author {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 2rem;
+  margin-right: 21rem;
+}
+
+.testimonial-role {
+  margin-top: -2rem;
+  font-size: 14px;
+  color: #888;
+  margin-right: 21rem;
+}
+.stats-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Stats Section */
+.stats-section {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.stat {
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stat-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.stat-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #555;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+.no-orders {
+  text-align: center;
+  padding: 40px;
+}
+
+.no-orders img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.no-orders h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.no-orders p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.no-orders button {
+  background-color: #631d1d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+  /* Footer Styles */
+.footer {
+  background-color: #621521;
+  color: #ffffff;
+  padding: 2rem 1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+  margin: 1rem 0;
+}
+
+.footer-column h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.social-icons a,
+.app-icons a {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: #ffffff;
+}
+
+.qr-code img,
+.footer-logo,
+.partner-logos img {
+  width: 50px;
+  height: auto;
+  margin: 0.5rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-bottom p {
+  font-size: 0.8rem;
+}
+
+.footer-logo {
+  width: 60px;
+  display: block;
+  margin: 1rem auto;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-left: 47rem;
+}
+  

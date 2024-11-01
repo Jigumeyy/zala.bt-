@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .no-orders {
+    margin-bottom: 40px;
+  }
+  
+  .cart-icon {
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .no-orders h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .no-orders p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .shop-now-btn {
+    padding: 10px 20px;
+    background-color: #4d0d13;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #630f19;
+  }
+  
+  .products-section {
+    margin-top: 30px;
+  }
+  
+  .products-section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .product {
+    width: 100px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .product p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
